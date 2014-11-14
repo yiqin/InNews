@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CocoaNews.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [CocoaNews setApplicationId:@"OwnvY79qyoEj4FcUgx5YM79Df" apiKey:@"2mKK0DNRjQ"];
+    
     return YES;
 }
 
